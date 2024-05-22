@@ -8,7 +8,7 @@ terraform {
 }
 
 resource "random_string" "randomname" {
-  length  = 5
+  length  = 4
   count   = 2
   special = false
   upper   = false
